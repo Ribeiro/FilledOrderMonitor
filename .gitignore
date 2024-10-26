@@ -1,0 +1,79 @@
+# Diretórios de compilação
+bin/
+obj/
+
+# Logs e relatórios
+*.log
+*.tlog
+*.cache
+
+# Configurações de ambiente
+.env
+
+# Arquivos de configuração de usuário
+.vscode/
+.idea/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Arquivos gerados pelo Rider e JetBrains
+*.DotSettings.user
+.idea/
+*.sln.iml
+
+# Diretórios e arquivos do NuGet
+packages/
+*.nupkg
+*.snupkg
+.nuget/
+
+# Diretórios de publicação
+.publish/
+publish/
+
+# Arquivos de backup e temporários
+*.bak
+*.tmp
+*.temp
+~$*
+*.swp
+*.sln.docstates
+
+# Arquivos de sistema
+.DS_Store
+Thumbs.db
+
+# Arquivos de testes
+TestResults/
+*.trx
+*.coverage
+*.coveragexml
+*.codecoverage
+
+# Arquivos específicos do Resharper
+_ReSharper*/
+*.[Rr]e[Ss]harper
+
+# Arquivos específicos do Visual Studio Code
+.vscode/
+
+# Arquivos específicos do Visual Studio
+.vs/
+*.pidb
+*.opendb
+*.userprefs
+*.rsuser
+
+# Diretórios do Docker e Kubernetes (se estiverem sendo usados)
+docker-compose.override.yml
+.docker/
+.kube/
+
+# Configuração de PublishProfiles
+Properties/PublishProfiles/
+
+# Arquivos de segurança e chaves
+*.pfx
+*.key
